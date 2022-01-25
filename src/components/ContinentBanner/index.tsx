@@ -1,8 +1,6 @@
 import { Flex, Heading } from '@chakra-ui/react';
 
-import { ContinentProps } from '../../pages/continent/[slug]';
-
-const ContinentBanner = ({ continent }: ContinentProps) => {
+const ContinentBanner = () => {
   return (
     <Flex
       w="100%"
